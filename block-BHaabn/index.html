@@ -1,8 +1,53 @@
-<!-- 
-- Create a gallery using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
--->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="assets/stylesheets/resets.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5cc6fb9f6b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-flex">
+        <a class="logo" href="https://altcampus.school/">
+          <img src="assets/media/altcampus-logo.svg" alt="logo-here" />
+        </a>
+        <nav class="nav">
+          <a href="#">HOME</a>
+          <a id="green" href="#">GALLERY</a>
+          <a href="#">ABOUT</a>
+        </nav>
+      </div>
+    </header>
+    
+    <main class="main">
+      <div class="container">
+       <section >
+           <h2>GALLERY</h2>
+           <div class="gallery">
+          <img src="assets/media/01.png" alt="Image-1">
+          <img src="assets/media/02.png" alt="Image-2">
+          <img src="assets/media/03.png" alt="Image-3">
+          <img src="assets/media/04.png" alt="Image-4">
+          <img src="assets/media/05.png" alt="Image-5">
+          <img src="assets/media/06.png" alt="Image-6">
+        </div>
+       </section>
+      </div>
+    </main>
+    <footer class="footer">
+    
+            <div class="container header-flex footer-flex">
+              <p class="copyright">&copy; AltCampus</p>
+              <nav class="nav">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+              </nav>
+            </div>
+          </header>
+    </footer>
+  </body>
+</html>
