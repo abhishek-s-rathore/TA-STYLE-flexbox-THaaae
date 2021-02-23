@@ -1,0 +1,108 @@
+/*Custom Styles*/
+/*#5CB668*/
+
+/*General*/
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #222946;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+h2 {
+  font-size: 42px;
+  font-family: "Concert One", cursive;
+  text-align: center;
+  padding: 40px 0;
+}
+
+/*Header*/
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+/*Main*/
+.main {
+  background-color: rgb(238, 196, 196);
+}
+
+/*Article*/
+.article-div {
+  border: 2px solid rgb(218, 61, 61);
+  border-radius: 12px;
+  width: 48%;
+  padding: 10px;
+}
+
+.mount {
+  width: 48%;
+  border: 2px solid rgb(218, 61, 61);
+  border-radius: 12px;
+}
+
+.article {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+  font-family: "Concert One", cursive;
+  line-height: 1.7;
+}
+
+.article-div p {
+  font-size: 18px;
+  font-family: monospace;
+  color: rgb(117, 25, 25);
+  line-height: 1.7;
+}
+
+/*Gallery*/
+.gallery img {
+  width: 30%;
+  height: 600px;
+  border: 2px solid rgb(218, 61, 61);
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+/*Footer*/
+
+.footer {
+  background-color: #222946;
+}
+
+.footer-flex {
+  height: 100px;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 24px;
+}
