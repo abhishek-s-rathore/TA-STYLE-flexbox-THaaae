@@ -1,13 +1,67 @@
-<!-- 
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the brand name to the left and all the navigation to the right.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Use flexbox properties and values to create columns.
- -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="assets/stylesheets/resets.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5cc6fb9f6b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-flex">
+        <a class="logo" href="https://altcampus.school/">
+          <img src="assets/media/altcampus-logo.svg" alt="logo-here" />
+        </a>
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
+    
+    <main class="main">
+      <div class="container">
+       <section>
+           <h2>ARTICLE</h2>
+           <article class="article">
+               <div class="article-div">
+                <h3>The AltCampus</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius expedita voluptate adipisci quo repellat doloremque blanditiis temporibus consequatur fugit. Odit suscipit nulla illum, voluptatum quidem harum iure tempora eos atque!</p>
+               </div>
+              <img class="mount" src="assets/media/pic0.jpg" alt="Image-Here">
+           </article>
+       </section>
+       <section >
+           <h2>GALLERY</h2>
+           <div class="gallery">
+          <img src="assets/media/pic1.jpg" alt="Image-1">
+          <img src="assets/media/pic2.jpg" alt="Image-2">
+          <img src="assets/media/pic3.jpg" alt="Image-3">
+          <img src="assets/media/pic4.jpg" alt="Image-4">
+          <img src="assets/media/pic5.jpg" alt="Image-5">
+          <img src="assets/media/pic6.jpg" alt="Image-6">
+        </div>
+       </section>
+      </div>
+    </main>
+    <footer class="footer">
+    
+            <div class="container header-flex footer-flex">
+              <p class="copyright">&copy; AltCampus</p>
+              <nav class="nav">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-square"></i></a>
+              </nav>
+            </div>
+          </header>
+    </footer>
+  </body>
+</html>
