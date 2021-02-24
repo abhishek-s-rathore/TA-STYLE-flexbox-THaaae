@@ -1,8 +1,103 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Assignment Last</title>
+    <link rel="stylesheet" href="assets/stylesheets/resets.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5cc6fb9f6b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header colour">
+      <div class="container side-flex">
+        <a href="https://altcampus.school">
+          <img src="assets/media/altcampus-logo.svg" alt="LOGO"
+        /></a>
+        <nav class="nav">
+          <a href="#">
+            <img class="bell" src="assets/media/icons/bell.svg" alt="bell" />
+          </a>
+          <a href="#"> Sarah Jone </a>
+          <a href="#">
+            <img src="assets/media/icons/user.svg" alt="user" />
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container side-flex">
+        <aside class="aside">
+          <nav class="board">
+            <a href="#"
+              ><img src="assets/media/icons/dashboard.svg" alt="db" />
+              <span>Dashboard</span></a
+            >
+            <a class="orange-box" href="#"
+              ><img src="assets/media/icons/article.svg" alt="db" /><span
+                class="orange"
+              >
+                Articles</span
+              ></a
+            >
+            <a href="#"
+              ><img src="assets/media/icons/analytics.svg" alt="db" />
+              <span>Analytics</span></a
+            >
+            <a href="#"
+              ><img src="assets/media/icons/inbox.svg" alt="db" />
+              <span>Inbox</span></a
+            >
+            <a href="#"
+              ><img src="assets/media/icons/setting.svg" alt="db" />
+              <span>Setting</span></a
+            >
+          </nav>
+          <a class="btn" href="#">
+            <img src="assets/media/icons/log-out.svg" alt="logout" />
+            <span>Log Out</span></a
+          >
+        </aside>
+        <article class="article">
+          <img class="punch" src="assets/media/01.png" alt="Pic_Here" />
+          <h2><strong>Why we are doing AltCampus? </strong></h2>
+          <p>
+            AltCampus is an alternative to college that you wish existed.
+            Currently we are offering an in-house, 6 month long program to train
+            people in quality software development, where they don't have to pay
+            anything until they are hired.
+          </p>
+          <p>
+            We live in the world of digital skills. These skills are always
+            evolving and so is their demand. Students/Professionals who are not
+            responsive to the chages in industry demands, in terms of skills,
+            will have a hard time surviving, well at least flourishing.
+          </p>
+          <a class="button" href="#">Read More</a>
+        </article>
+      </div>
+    </main>
 
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+    <footer class="footer colour">
+      <div class="container side-flex footer-flex">
+        <p class="copyright">&copy; AltCampus</p>
+        <nav class="contacts">
+          <a href="https://www.facebook.com"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://www.twitter.com"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
